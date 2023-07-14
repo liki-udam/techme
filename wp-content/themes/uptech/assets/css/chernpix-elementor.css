@@ -1,0 +1,1029 @@
+/* Template options */
+.page-template-uptech-main-template .topbar-slot-b a i,
+.page-template-uptech-fullscreen-template .topbar-slot-b a i ,
+.topbar-slot-b a i{
+    font-family:fontawesome!important;
+    font-weight:400!important;         
+}
+/* Landing page template (light header) */
+   .page-template-uptech-landing-template-lh .gn-header-desc-title ,
+   .page-template-uptech-landing-template-lh .gn-header-desc-desc{
+    color:white
+   }
+   .page-template-uptech-landing-template-lh .gn-header-desc-desc{
+     opacity:.7;
+   }
+   .page-template-uptech-landing-template-lh .st-parent-ul >li.menu-item-has-children::after{
+    color:white;
+    opacity:.9;
+   }
+  .page-template-uptech-landing-template-lh .st-topbar{
+    border-color: rgba(255, 255, 255, 0.38)!important;
+   }
+   .page-template-uptech-landing-template-lh .wc-head-cart-number{
+     background:white;
+     color:#4b4b4b
+   }
+    .page-template-uptech-landing-template-lh .wc-head-cart-number{
+     background:white;
+     color:#343a5d;
+   }
+  .page-template-uptech-landing-template-lh .st-parent-ul >li >a{
+    color:#fdfdfd;
+  }
+  .page-template-uptech-landing-template-lh .st-topbar-item i{
+    color:white;
+  }
+  .page-template-uptech-landing-template-lh .ss-header{background:#0d2867}
+  .page-template-uptech-landing-template-lh .st-parent-ul >li >a::after{background:#fff;}
+  .page-template-uptech-landing-template-lh .st-header-search-icon,
+  .page-template-uptech-landing-template-lh .st-header-sidebar,
+  .page-template-uptech-landing-template-lh .st-header-cart-icon a{
+    color:#ffffff;
+  }
+
+  .page-template-uptech-landing-template-lh .st-header-magic-box{
+    color:#343a5d;
+    background:white;
+    opacity:1;
+  }
+
+/* Fullscreen template */
+    .page-template-uptech-landing-template-lh .gn-header-desc-desc{
+    color:white;
+    opacity:.7;
+   }
+   
+ .page-template-uptech-fullscreen-template .st-topbar,
+ .page-template-uptech-landing-template-lh .st-topbar,
+ .page-template-uptech-fullscreen-template-dt .st-topbar{
+     position:absolute;
+     background:transparent;
+     z-index:1;
+     border-color: rgba(255, 255, 255, 0.27);
+ }
+ .page-template-uptech-fullscreen-template .st-topbar-item,
+ .page-template-uptech-landing-template-lh .st-topbar-item{
+    color: rgb(239, 239, 239);
+    font-family:poppins;
+    font-size:13px;
+ }
+ 
+.page-template-uptech-fullscreen-template  .topbar-slot-b a,
+.page-template-uptech-landing-template-lh .topbar-slot-b a,
+.page-template-uptech-fullscreen-template-dt .topbar-slot-b a{
+    background:transparent;
+    font-size:17px;
+}
+ .page-template-uptech-fullscreen-template   .topbar-slot-b a:hover,
+ .page-template-uptech-landing-template-lh .topbar-slot-b a:hover,
+ .page-template-uptech-fullscreen-template-dt .topbar-slot-b a:hover
+ {
+    background:transparent;
+    opacity:1;
+}
+ 
+ .page-template-uptech-landing-template-red .st-header,
+ .page-template-uptech-fullscreen-template .st-header,
+ .page-template-uptech-landing-template-lh .st-header,
+ .page-template-uptech-fullscreen-template-dt .st-header{
+     position:absolute;
+     background:transparent;
+     z-index:1;
+ }
+ .page-template-uptech-fullscreen-template .st-topbar ~ .st-header,
+ .page-template-uptech-landing-template-lh .st-topbar ~ .st-header,
+ .page-template-uptech-fullscreen-template-dt .st-topbar ~ .st-header {
+    position:absolute;
+    top: 50px;
+}
+ 
+ .logged-in.page-template-uptech-fullscreen-template .st-topbar ~ .st-header,
+ .logged-in.page-template-uptech-landing-template-lh .st-topbar ~ .st-header,
+ .logged-in.page-template-uptech-fullscreen-template-dt .st-topbar ~ .st-header
+
+ {
+     position:absolute;
+     top:80px; 
+ }
+  .logged-in.page-template-uptech-fullscreen-template-dt  .st-header{
+    top:30px
+  }
+ @media (max-width:900px){
+       .logged-in.page-template-uptech-fullscreen-template .st-topbar ~ .st-header,
+       .logged-in.page-template-uptech-landing-template-lh .st-topbar ~ .st-header,
+       .logged-in.page-template-uptech-fullscreen-template-dt .st-topbar ~ .st-header {
+top:32px!important;
+ }
+      .page-template-uptech-fullscreen-template .st-topbar ~ .st-header,
+      .page-template-uptech-landing-template-lh .st-topbar ~ .st-header,
+      .page-template-uptech-fullscreen-template-dt .st-topbar ~ .st-header{
+top:0!important;
+ }
+ }
+  .page-template-uptech-fullscreen-template .st-parent-ul >li >a,
+  .page-template-uptech-fullscreen-template-dt .st-parent-ul >li >a{ 
+     color:#fff;
+     font-family:poppins;
+     font-size:13px;
+     text-transform:uppercase;
+     letter-spacing:1px
+ }
+ .page-template-uptech-fullscreen-template .st-parent-ul >li.menu-item-has-children::after{
+   color:white;
+   opacity:.8;
+ }
+ 
+ .page-template-uptech-fullscreen-template  .st-header-search-icon,
+ .page-template-uptech-fullscreen-template .st-header-sidebar,
+ .page-template-uptech-fullscreen-template .st-header-cart-icon a,
+ .page-template-uptech-fullscreen-template-dt  .st-header-search-icon,
+ .page-template-uptech-fullscreen-template-dt .st-header-sidebar,
+ .page-template-uptech-fullscreen-template-dt .st-header-cart-icon a{
+     color:#fff;
+ }
+ .page-template-uptech-fullscreen-template .st-topbar-item i{
+   color:#dddddd;
+ }
+
+ .page-template-uptech-fullscreen-template .gn-header-desc-desc{
+   color:white;
+   opacity:.7;
+ }
+ /* Fullscreen template dark header & Menu */
+    .page-template-uptech-fullscreen-template-dt .gn-header-desc-desc{
+    color:white;
+    opacity:.7;
+   }
+ .page-template-uptech-fullscreen-template-dt .st-topbar{
+    background: rgba(23, 28, 33, 0.21);
+ }
+ .page-template-uptech-fullscreen-template-dt .st-header{
+    background: rgba(23, 28, 33, 0.21);
+ }
+ .page-template-uptech-fullscreen-template-dt .st-parent-ul >li:hover >a::after{
+   background:white;
+ }
+ .page-template-uptech-fullscreen-template-dt .st-topbar .st-topbar-item{
+   color: #e5e5e5;
+ }
+ .page-template-uptech-fullscreen-template-dt .st-topbar .st-topbar-item i{
+   color: #efefef;
+ }
+ .page-template-uptech-fullscreen-template-dt .st-parent-ul >li.menu-item-has-children::after{
+   color:white;
+   opacity:.8;
+   
+ }
+/* CF7 */
+.wpcf7 label{
+    display:block ; 
+    width:100%;
+}
+ .wpcf7 label select{
+  -webkit-appearance: none!important;  /* for webkit (safari, chrome) compatibility */
+  -moz-appearance: none!important; /* for firefox compatibility */
+   appearance: none!important;
+   }
+   
+ .cf7-two-columns input,
+ .wpcf7 label input , 
+ .wpcf7 label select,
+ .wpcf7 label textarea{
+    display: block;
+    width: 100%;
+    padding: 17px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    background: #eee;
+    border-radius: 2px;
+    outline: 0;
+}
+
+.wpcf7 h1{
+   font-size: 24px;
+   color: #404040;
+   margin-bottom: 15px;
+}
+.uptech-banner-appointment .wpcf7 h1{
+  text-align:center;
+  font-size:22px;
+}
+.uptech-banner-appointment .wpcf7 p{
+  text-align:center;
+  font-size:13px;
+     color:#696969;
+
+}
+.wpcf7 p {
+   font-size: 14px;
+   margin-bottom: 20px;
+   color:#959595;
+   display:block;
+   line-height:18px;
+}
+.wpcf7 input[type='submit']{
+   padding: 16px 30px;
+   border-radius: 2px;
+   background: #281EFF!important;
+   color: white;
+   font-family: poppins;
+   letter-spacing: 2px;
+   font-weight: 500;
+   box-shadow:0 7px 12px rgba(0, 0, 0, 0.08);
+   border: none;
+   cursor: pointer;
+   transition:280ms all;
+   transform:translateY(0px);
+}
+ .wpcf7 input[type='submit']:hover{
+       transition:380ms all;
+   transform:translateY(10px);
+ }
+
+ .uptech-banner-appointment .wpcf7 input[type='submit']{
+   display:block ;
+   margin: 0 auto;
+   padding: 16px 55px;
+
+ }
+
+
+/* CF7 ver2 */
+
+.cf7-two-columns{
+    display:flex;
+   justify-content: space-between;
+   margin-bottom: 11px;
+}
+ .cf7-two-columns span{
+    width:47.5%;
+}
+.cf7-two-columns span input{
+    width:100%;
+}
+
+.uptech-cf-contact input,
+.uptech-cf-contact label select,
+.uptech-cf-contact label textarea{
+    margin-bottom:0;
+    background:#edf1f5!important;
+}
+ .uptech-cf-contact label textarea{
+     margin-top:-8px;
+ }
+ 
+ /* CF button center */
+ .uptech-cf-btn-center .wpcf7 p:last-of-type{
+  text-align:center!important;
+  margin-top:30px;
+}
+.uptech-cf-contact .wpcf7 p:last-of-type{
+    margin-top:30px;
+}
+
+/* CF7 footer */
+.uptech-footer-contact-form .wpcf7 p{
+margin-bottom:0!important;
+}
+
+.uptech-footer-contact-form .wpcf7 label input,
+.uptech-footer-contact-form .wpcf7 label textarea{margin-bottom:10px!important;background:#1d2434;border-radius: 2px;border:none;padding:19px;color:#cecece;font-family:poppins;}
+
+.uptech-footer-contact-form .wpcf7 input[type='submit']{
+  border-radius: 2px;
+  padding:19px 65px;
+  display:block;
+}
+
+/* CF7 Footer light */
+.uptech-footer-contact-form-light .wpcf7 label input , 
+.uptech-footer-contact-form-light .wpcf7 label textarea {
+margin-bottom:-10px!important;
+}
+.uptech-footer-contact-form-light  .wpcf7 input[type='submit']{
+  display :block ;
+  margin:0 auto!important;
+  padding: 15px 55px;
+  background:#8918ff !important;
+  }
+   
+.cf7-center-btn .wpcf7 input[type='submit']{margin:0 auto;}
+/* Elementor elements */
+.uptech-element-translate-20{
+    transition:240ms ease-in;
+    transform:translateY(0px);
+}
+
+.uptech-element-translate-20:hover{
+   transition:280ms ease-in;
+   transform:translateY(-20px);
+}
+
+
+.uptech-element-translate-30{
+transition:280ms ease-in;
+transform:translateY(0px);
+} 
+.uptech-element-translate-30:hover{
+transition:280ms ease-in;
+transform:translateY(-30px);
+}
+
+/* FAQ */ 
+.uptech-faq-v1 .elementor-tab-title{
+
+}
+.uptech-faq-v1 .elementor-accordion-item{
+     overflow: hidden;
+   margin-bottom:15px;
+
+}
+
+.uptech-faq-v2 .elementor-tab-title.elementor-active{
+border-bottom:1px solid #e7e7e7!important;
+}
+.uptech-faq-v1-radius .elementor-accordion-item{
+ overflow:hidden;
+ border-radius:5px;
+ margin-bottom:20px;
+}
+/* Service Box */
+.uptech-servicelist .uptech-element-translate-20 > div:last-child{
+   position:relative;
+   overflow:hidden;
+   
+} 
+.uptech-servicelist .uptech-element-translate-20 > div:last-child::after{
+   content:"";
+   width:55px;
+   height:1px;
+   position:absolute;
+   bottom:0;
+   left:0;
+   background:#ffffff;
+   transition:340ms all;
+}
+.uptech-servicelist .uptech-element-translate-20 > div:last-child:hover::after{
+   content:"";
+   width:100%;
+   background:#1f87ff;
+   transition:340ms all;
+}
+.uptech-servicelist .uptech-element-translate-20 > div:last-child::before{
+   content: "";
+   width: 240px;
+   height: 240px;
+   background: rgba(31, 135, 255, 0.02);
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 100%;
+   transform: translate(-80px,-80px);
+   transition:340ms all;
+}
+.uptech-servicelist .uptech-element-translate-20 > div:last-child:hover::before{
+  transition:340ms;
+  transform:translate(-109px,-100px);
+  background: rgba(31, 135, 255, 0.064);
+   
+}
+.uptech-servicelist .uptech-element-translate-20 > div:last-child:hover i{
+  transition:340ms;
+   color: #1f87ff!important
+   
+}
+
+/* uptech Pricing Table */
+.uptech-pricing-table .uptech-element-translate-20 > div:last-child{
+   overflow:hidden;
+   position:relative;
+   z-index:1;
+}
+.uptech-pricing-table .uptech-element-translate-20 > div:last-child::after{
+  content: "";
+   width: 200px;
+   height: 200px;
+   background: rgba(31, 135, 255, 0.02);
+   top: 40px;
+   position: absolute;
+   left: 50%;
+   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+   z-index: -1;
+   transform: translatex(-50%);
+   animation: uptech_bounce_animation 6s infinite;
+   transition:340ms all
+   }
+   .uptech-pricing-table .uptech-element-translate-20 > div:last-child:hover::after{
+       transition:340ms;
+       background:rgba(31, 135, 255, 0.064);
+       
+   }
+   @keyframes uptech_bounce_animation {
+0% {
+   border-radius : 30% 70% 70% 30% / 30% 30% 70% 70%;
+   }
+25% { 
+   border-radius:  58% 42% 75% 25% / 76% 46% 54% 24%;
+}
+50% {
+   border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+   }
+75% {
+   border-radius:  33% 67% 58% 42% / 63% 68% 32% 37%	;	
+}
+}
+/* uptech testimonial */
+
+.uptech-testimonial-list .uptech-element-translate-20 > div:last-child{
+   position:relative;
+   z-index:1;
+}
+.uptech-testimonial-list .uptech-element-translate-20 > div:last-child::after{
+   content: "\f10d";
+   position: absolute;
+   width: 60px;
+   height: 60px;
+   background: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: fontawesome;
+   border-radius: 75% 25% 71% 29% / 30% 68% 32% 70%;
+   top: -30px;
+   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.10196078431372549);
+   color: #1f87ff;
+   transform: rotate(0deg);
+   transition: 280ms all;
+}
+.uptech-testimonial-list .uptech-element-translate-20 > div:last-child:hover::after{
+   transition:300ms;
+   transform:scale(1.1) rotate(360deg);
+}
+.uptech-testimonial-list .uptech-element-translate-20 > div:last-child::before{
+  content: "";
+   width: 120px;
+   height: 120px;
+   background:rgb(245, 250, 255);
+   top: 30px;
+   position: absolute;
+   left: 50%;
+   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+   z-index: -1;
+   transform: translatex(-50%);
+   animation: uptech_bounce_animation 6s infinite;
+   transition:340ms all
+}
+
+.uptech-testimonial-list .uptech-element-translate-20  > div:last-child:hover::before{
+       transition:340ms;
+       background:rgba(31, 135, 255, 0.08);
+       
+   }
+   
+   /* uptech Progress bar */
+   .uptech-one-progressbar .elementor-widget-container span{
+       display:block;
+       margin-bottom:4px;
+   }
+   
+   
+   /* ------ Inner page elements ------ */
+   .uptech-feature-about:hover i , 
+   .uptech-feature-about:hover .elementor-heading-title , 
+   .uptech-feature-about:hover p {
+       transition:400ms ease-in all;
+       color:#ffffff!important;
+   }
+   
+   .uptech-feature-about:hover  .elementor-view-stacked .elementor-icon{
+       transition:400ms ; 
+       background:rgba(242, 248, 255, 0.1607843137254902)!important;
+   }
+   
+   /* Extras */
+ 
+   .banner_loon_effect{
+     position:relative;
+     }
+
+   .banner_loon_effect::after{
+     content:"";
+     width:140%;
+     height:120%;
+     background:#b4bcf912;
+     position:absolute;
+     top:-10%;
+     left:-40%;
+     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+     z-index:-1;
+         animation: uptech_bounce_animation 6s infinite;
+
+   } 
+      .banner_image_animation_circle{
+       animation:bannerimage_translate 6s infinite;
+     animation-play-state: runnig;
+     animation-direction: alternate;
+
+}
+@keyframes bannerimage_translate{
+     0%{transform:translateX(-20px)  translateY(-50px)}
+
+   }
+   .banner_circle_effect,
+   .banner_fancy_effect{
+     position:relative;
+     z-index:1;
+   }
+
+   .banner_circle_effect:after,
+   .banner_fancy_effect_innerelements::after{
+     content:"";
+     width:550px;
+     height:550px;
+     position:absolute;
+     top:0;
+     background:transparent;
+     border-radius:100%;
+     border:45px solid #ffffff0f;
+     z-index:-1;
+     animation:bannercircle 6s infinite;
+     animation-play-state: runnig;
+     animation-direction: alternate;
+
+   }
+   @keyframes bannercircle{
+     0%{transform:translateX(-100px)}
+
+   }
+    .banner_fancy_effect::after,
+    .banner_fancy_effect_innerelements::after{
+      content:"";
+     width:250px;
+     height:250px;
+     position:absolute;
+     top:0;
+     background:#ffffff0f;
+     border-radius:30% 70% 66% 34% / 29% 41% 59% 71%;
+      z-index:-1;
+     animation:bannercircle 6s infinite;
+     animation-play-state: runnig;
+     animation-direction: alternate;
+    }
+     .banner_fancy_effect::before,
+     .banner_fancy_effect_innerelements::before{
+      content:"";
+     width:250px;
+     height:250px;
+     position:absolute;
+     bottom:0;
+     right:80px;
+     background:#ffffff00;
+     border:40px solid #ffffff0f;
+     border-radius:100%;
+      z-index:-1;
+     animation:bannercircle 7s infinite;
+     animation-play-state: runnig;
+     animation-direction: alternate;
+    } 
+   .banner_fancy_effect_innerelements::before,
+   .banner_fancy_effect_innerelements::after{
+           background:#eff3f829;
+
+   }
+
+   /* Team members */
+   .uptech-team-member {
+     overflow:hidden!important;
+     z-index:2;
+   }
+    .uptech-team-member img {
+     overflow:hidden!important;
+     z-index:1;
+   }
+
+   /* Layer blocks */
+
+   .uptech-layem-elem-blue,
+   .uptech-layem-elem-red,
+   .uptech-layem-elem-yellow,
+   .uptech-layem-elem-green{
+     position:relative;
+     z-index:2;
+     overflow:hidden;
+
+   }
+   .uptech-layem-elem-blue .elementor-widget-wrap,
+   .uptech-layem-elem-red .elementor-widget-wrap ,
+   .uptech-layem-elem-yellow .elementor-widget-wrap ,
+   .uptech-layem-elem-green .elementor-widget-wrap {
+     z-index:2;
+   }
+
+   .uptech-layem-elem-blue::after,
+   .uptech-layem-elem-red::after,
+   .uptech-layem-elem-yellow::after,
+   .uptech-layem-elem-green::after{
+     content:'';
+     width:calc(100% - 10px);
+     height:100%;
+     position:absolute;
+     z-index:1;
+     transition:300ms all;
+     transform:translateY(-100%);
+    }
+     .uptech-layem-elem-blue::after{
+       background:#1489e8;
+     }
+     .uptech-layem-elem-red::after{
+       background:#f71652;
+     }
+     .uptech-layem-elem-yellow::after{
+       background:#ffbe25;
+     }
+     .uptech-layem-elem-green::after{
+       background:#05ffa7;
+     }
+
+    .uptech-layem-elem-red::after,
+    .uptech-layem-elem-green::after{
+       right:0!important;
+     }
+
+     
+
+   .uptech-layem-elem-blue:hover::after,
+   .uptech-layem-elem-red:hover::after,
+   .uptech-layem-elem-yellow:hover::after,
+   .uptech-layem-elem-green:hover::after{
+     transition:300ms;
+     opacity:1;
+     transform:translateY(0px);
+   }
+   .uptech-layem-elem-blue:hover i,
+   .uptech-layem-elem-red:hover i,
+   .uptech-layem-elem-green:hover i,
+   .uptech-layem-elem-yellow:hover i {
+     color:white;
+     transition:300ms ease-in;
+   }
+   .uptech-layem-elem-blue:hover h2,
+   .uptech-layem-elem-red:hover h2,
+   .uptech-layem-elem-green:hover h2,
+   .uptech-layem-elem-yellow:hover h2{
+     color:white !important;
+   }
+    .uptech-layem-elem-blue:hover p,
+   .uptech-layem-elem-red:hover p,
+   .uptech-layem-elem-green:hover p,
+   .uptech-layem-elem-yellow:hover p{
+     color:white !important;
+   }
+/* uptech testimonials */
+   .uptech-one-testimonial {
+     position:relative;
+   }
+   .uptech-one-testimonial::after{
+     content:"\f10d";
+     font-family:fontawesome;
+     width:60px;
+     height:60px;
+     background:#ff3a46;
+     right:40px;
+     color:white;
+     top:-30px;
+     position:absolute;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+   border-radius: 75% 25% 71% 29% / 30% 68% 32% 70%;
+     transition:600ms all;
+     transform:rotateZ(0deg)  scale(1) ;  
+     box-shadow:0px 0px 7px #d8ffe2;
+      }
+      .uptech-one-testimonial:hover::after{
+        transition:600ms ;
+        transform:rotateZ(180deg)
+      }
+   /* uptech template #RED */
+
+   .page-template-uptech-landing-template-red .st-header .st-sizing-container{
+     min-height:120px;
+   }
+
+   .page-template-uptech-landing-template-red .st-header-magic-box,
+   .page-template-uptech-landing-template-red .ss-header,
+   .page-template-uptech-landing-template-red .st-parent-ul >li:hover >a::after,
+   .page-template-uptech-landing-template-red .st-parent-ul .sub-menu li::before,
+   .page-template-uptech-landing-template-red .wc-head-cart-number{
+     background:#ff3946;
+   }
+
+   .page-template-uptech-landing-template-red .st-parent-ul >li:hover >a,
+   .page-template-uptech-landing-template-red .gn-header-desc-title,
+   .page-template-uptech-landing-template-red .footer-sidebar .widget-content ul li a:hover,
+   .page-template-uptech-landing-template-red .st-parent-ul .sub-menu li:hover >a,
+   .page-template-uptech-landing-template-red .st-parent-ul >li.menu-item-has-children:hover::after,
+   .page-template-uptech-landing-template-red .close-searchpanel:hover:before{
+    color:#ff3946;
+   }
+  
+   
+
+   .uptech-number-lefttext .elementor-counter-number-prefix{
+     display:none;
+   }
+   .uptech-number-lefttext .elementor-counter-title{
+     text-align:left!important;
+   }
+
+   .page-template-uptech-landing-template-lh .st-header .st-sizing-container{
+     min-height:120px
+   }
+
+   .uptech-mobile-background-loon-blue{
+     position:relative;
+     z-index:1;
+   }
+   .uptech-mobile-background-loon-blue::after,
+   .uptech-mobile-background-loon-orange::after{
+     content:"";
+     width:500px;
+     height:100%;
+     background:#ff7648;
+     position:absolute;
+     z-index:-1;
+     top:0;
+     left:0;
+      display:block;
+         border-radius : 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+     animation:uptech_bounce_animation 7s infinite;
+   }
+.uptech-mobile-background-loon-blue::after,
+   .uptech-mobile-background-loon-orange::after{
+     
+   }
+       .uptech-mobile-background-loon-blue::after{
+         background:#2777d00d;
+       }
+       @keyframes uptech_bounce_animation {
+0% {
+   border-radius : 30% 70% 70% 30% / 30% 30% 70% 70%;
+   }
+25% { 
+   border-radius:  58% 42% 75% 25% / 76% 46% 54% 24%;
+}
+50% {
+   border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+   }
+75% {
+   border-radius:  33% 67% 58% 42% / 63% 68% 32% 37%	;	
+}
+}
+
+
+
+/* Feature hover effect */
+.uptech-one-feature-main{
+  transition:400ms all;
+   animation:featurebox_anim_main_back 650ms ;
+
+}
+
+.uptech-one-feature-main:hover{
+  animation:featurebox_anim_main 750ms ;
+  transform:scale(1.04);
+}
+
+@keyframes featurebox_anim_main{
+  0%{   transform:perspective(900px) rotateX(15deg) scale(1);}
+  50%{   transform:perspective(900px) rotateX(-15deg) scale(1.01) ;}
+  100%{   transform:perspective(900px) rotateX(0deg) scale(1.04) ;}
+}
+@keyframes featurebox_anim_main_back{
+  0%{   transform:perspective(900px) rotateX(-10deg) scale(1.07) ;}
+  50%{   transform:perspective(900px) rotateX(15deg) scale(1.03) ;}
+  100%{   transform:perspective(900px) rotateX(0deg) scale(1);}
+}
+
+.uptech_innertext_block{
+  display:block;
+  margin: 0 auto;
+}
+
+.bordtest {
+       border-radius: 34% 56% 70% 30% / 49% 30% 60% 51%
+ ;	
+
+}
+
+.uptech-faq-border .elementor-accordion-item{
+  border-radius:5px;
+}
+
+
+.page-template-uptech-landing-template-red .double-bounce1,
+.page-template-uptech-landing-template-red .double-bounce2{
+    background:#ff424e!important;
+    opacity: 0.8;
+
+}
+
+/* UpTech Team Member */
+.uptech-team-member .elementor-social-icons-wrapper{
+transition:280ms;
+transform:translateY(-110px);
+opacity:0;
+visibility:hidden;
+}
+.uptech-team-member:hover .elementor-social-icons-wrapper{
+transition:340ms ease-in-out;
+transform:translateY(-170px);
+opacity:1;
+visibility:visible;
+}
+
+
+/* Image background animations */
+.image_background_circle_gray,
+.textb_background_circle_double{
+  z-index:1;
+}
+.image_background_circle_gray::after{
+ content:'';
+width:430px;
+height:430px;
+background:transparent;
+position:absolute;
+top:0;
+left:0;
+z-index:-1;
+border-radius:100%;
+border:50px solid #281eff;
+animation:bannerimage_translate 4s infinite;
+animation-play-state: runnig;
+animation-direction: alternate;
+}
+
+.textb_background_circle_double::after,
+.textb_background_circle_double::before{
+ content:'';
+width:700px;
+height:700px;
+background:transparent;
+position:absolute;
+top:5%;
+right:-40%;
+z-index:-1;
+border-radius:100%;
+border:2px solid #f5f5f5;
+animation:bannerimage_translate 6s infinite;
+animation-play-state: runnig;
+animation-direction: alternate;
+}
+
+.textb_background_circle_double::before{
+  width:600px!important;
+  height:600px!important;
+  right:-10%;
+  animation:bannerimage_translate 4s infinite;
+animation-play-state: runnig;
+animation-direction: alternate;
+
+}
+
+.uptech-arrow-top-bottom-anim{
+   transform :translateY(0px) ;
+  animation : upth_arrow_bottomtop_anim 2s infinite;
+  animation-play-state: runnig;
+  animation-direction: alternate;
+}
+
+@keyframes upth_arrow_bottomtop_anim{
+  0% {  transform :translateY(80px) scale(1) ; }
+  50% {  transform :translateY( 0px) scale(1.1) ; }
+  750% {  transform :translateY( 0px) scale(1.1) ; }
+  
+  
+
+}
+
+.page-template-uptech-fullscreen-template-dt .st-header-magic-box{
+  padding:17px 30px;
+  border-radius:2px;
+  background:rgba(255, 255, 255, 0.18823529411764706);
+  box-shadow:0px 10px 10px #0707073d;
+}
+.page-template-uptech-fullscreen-template-dt .st-header-magic-box:hover{
+  transition:200ms ease-in;
+  color:#2e2e2e;
+  background:#fff;
+  box-shadow:0px 10px 10px #0707073d;
+}
+
+/* Services block design V2 */
+.uptech-one-feature-main-v2,
+.uptech-one-feature-main-v2 .elementor-column-wrap,
+.uptech-one-feature-main-v2-purple .elementor-column-wrap,
+.uptech-one-feature-main-v2-blue .elementor-column-wrap{
+  position:relative;
+  overflow:hidden;
+ }
+.uptech-one-feature-main-v2::after,
+.uptech-one-feature-main-v2-purple:after,
+.uptech-one-feature-main-v2-blue:after{
+  content:"";
+  width:35px;
+  height:35px;
+  background:#ff8d6a;
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+   border-radius:100%;
+  transform:translate3d(31px,37px,0) scale(1); 
+  z-index:2; 
+transition:400ms all;
+}
+.uptech-one-feature-main-v2-purple::after{
+  background:#c38aff
+}
+
+.uptech-one-feature-main-v2-blue::after{
+    background:#68a4ff
+
+}
+.uptech-one-feature-main-v2:hover::after,
+.uptech-one-feature-main-v2-purple:hover::after,
+.uptech-one-feature-main-v2-blue:hover::after{
+  transition:500ms all;
+    transform:translate3d(38px,46px,0) scale(1.2);  
+
+}
+.uptech-one-feature-main-v2 .elementor-column-wrap::before,
+.uptech-one-feature-main-v2-purple .elementor-column-wrap::before,
+.uptech-one-feature-main-v2-blue .elementor-column-wrap::before,
+.feature_box_v2 .elementor-column-wrap::after,
+.feature_box_v2 .elementor-column-wrap::before{
+  content:"";
+  width:35px;
+  height:35px;
+  background:#f8f8f86b;
+  display:block;
+  position:absolute;
+  bottom:0;
+  right:0;
+  z-index:1;
+  border-radius:100%;
+  transform:translate(-31px,-37px) scale(1);  
+  transition:300ms all;
+}
+.uptech-one-feature-main-v2 .elementor-column-wrap:hover::before,
+.feature_box_v2 .elementor-column-wrap:hover::after,
+.uptech-one-feature-main-v2-purple .elementor-column-wrap:hover::before,
+.uptech-one-feature-main-v2-blue .elementor-column-wrap:hover::before{
+  transition:600ms all;
+    transform:translate(-41px,-47px) scale(11);  
+    opacity:1;
+}
+.feature_box_v2 .elementor-column-wrap::before{
+  background:#fdfdff0a;
+  opacity:0;
+}
+.feature_box_v2 .elementor-column-wrap:hover::before{
+   transition:600ms all;
+    transform:translate(-41px,-47px) scale(7);  
+    opacity:1;
+
+}
+
+/* feature box V2 */
+
+.feature_box_v2 .elementor-column-wrap{
+  position:relative;
+  overflow:hidden;
+}
+
+.feature_box_v2 .elementor-column-wrap::after{
+  content:"";
+  position:absolute;
+ background:#ffffff12;
+ opacity:0;
+ transition:300ms all;
+}
+
+
+.feature_box_v2 .elementor-icon{
+  transition:300ms all;
+  transform:scale(1) rotate(0deg);
+}
+.feature_box_v2:hover .elementor-icon{
+  transition:600ms all;
+  transform:scale(1.2) rotate(360deg);
+}
+
+
+ 
+
